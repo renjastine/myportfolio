@@ -12,7 +12,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://github.com/renjastine/myportfolio.git",
+  "homepage": "https://github.com/renjastine/myportfolio",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
