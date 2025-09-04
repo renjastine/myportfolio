@@ -57,11 +57,6 @@ nav {
 }
 
 @media screen and (min-width : 768px) {
-    @keyframes wide {
-        0% { width: 0rem; opacity: 0; }
-        100% { width: 5.5rem; opacity: 1;}
-    }
-
     .n-ul {
         list-style-type: none;
         display: flex;
@@ -77,6 +72,5 @@ nav {
         text-align: center;
         transition: width 0.3s;
         margin-inline: 0.4rem;
-        animation: wide 0.8s linear;
     }
 }
