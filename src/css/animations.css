@@ -1,0 +1,125 @@
+@keyframes blinking_light {
+    0% {
+        text-shadow: 0 0 0 #f0f0f0;
+    }
+
+    10% {
+        text-shadow: -0.1rem 0.1rem 0.8rem #f0f0f0;
+    }
+
+    15% {
+        text-shadow: 0 0 0 #f0f0f0;
+    }
+
+    20% {
+        text-shadow: -0.1rem 0.1rem 0.8rem #f0f0f0;
+    }
+
+    25% {
+        text-shadow: 0 0 0 #f0f0f0;
+    }
+
+    30% {
+        text-shadow: -0.1rem 0.1rem 0.8rem #f0f0f0;
+    }
+
+    35% {
+        text-shadow: 0 0 0 #f0f0f0;
+    }
+
+    40% {
+        text-shadow: -0.1rem 0.1rem 0.8rem #f0f0f0;
+    }
+
+    45% {
+        text-shadow: 0 0 0 #f0f0f0;
+    }
+
+    50% {
+        text-shadow: -0.1rem 0.1rem 0.8rem #f0f0f0;
+    }
+
+    55% {
+        text-shadow: 0 0 0 #f0f0f0;
+    }
+
+    60% {
+        text-shadow: -0.1rem 0.1rem 0.8rem #f0f0f0;
+    }
+
+    65% {
+        text-shadow: 0 0 0 #f0f0f0;
+    }
+
+    90% {
+        text-shadow: 0 0 0 #f0f0f0;
+    }
+
+
+    100% {
+        text-shadow: -0.1rem 0.1rem 0.8rem #f0f0f0;
+    }
+}
+
+@keyframes blinking_droplight {
+    0% {
+        filter: drop-shadow(0 0 0 rgb(255, 255, 255, 0.5))
+    }
+
+    10% {
+        filter: drop-shadow(0 0 0.5rem rgb(255, 255, 255, 0.5))
+    }
+
+    15% {
+        filter: drop-shadow(0 0 0 rgb(255, 255, 255, 0.5))
+    }
+
+    20% {
+        filter: drop-shadow(0 0 0.5rem rgb(255, 255, 255, 0.5))
+    }
+
+    25% {
+        filter: drop-shadow(0 0 0 rgb(255, 255, 255, 0.5))
+    }
+
+    30% {
+        filter: drop-shadow(0 0 0.5rem rgb(255, 255, 255, 0.5))
+    }
+
+    35% {
+        filter: drop-shadow(0 0 0 rgb(255, 255, 255, 0.5))
+    }
+
+    40% {
+        filter: drop-shadow(0 0 0.5rem rgb(255, 255, 255, 0.5))
+    }
+
+    45% {
+        filter: drop-shadow(0 0 0 rgb(255, 255, 255, 0.5))
+    }
+
+    50% {
+        filter: drop-shadow(0 0 0.5rem rgb(255, 255, 255, 0.5))
+    }
+
+    55% {
+        filter: drop-shadow(0 0 0 rgb(255, 255, 255, 0.5))
+    }
+
+    60% {
+        filter: drop-shadow(0 0 0.5rem rgb(255, 255, 255, 0.5))
+    }
+
+    65% {
+        filter: drop-shadow(0 0 0 rgb(255, 255, 255, 0.5))
+    }
+
+    90% {
+        filter: drop-shadow(0 0 0 rgb(255, 255, 255, 0.5))
+    }
+
+
+    100% {
+        filter: drop-shadow(0 0 0.5rem rgb(255, 255, 255, 0.5))
+    }
+}
