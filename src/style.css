@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #343034;
+}
+
+.oxanium-heading {
+  font-family: "Oxanium", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.oxanium-subtitle {
+  font-family: "Oxanium", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
