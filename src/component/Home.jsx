@@ -19,19 +19,19 @@ export default function Home() {
                     <Link
                         to="https://github.com/renjastine"
                         className="circle d-flex-r"
-                        target='_blank'
+                        // target='_blank'
                     >
                         <img id='homeIcons' src={github} alt="github" />
                     </Link>
                     <Link
-                        to="https://www.linkedin.com/in/ren-jastine-timajo-936b56346"
+                        // to="https://www.linkedin.com/in/ren-jastine-timajo-936b56346"
                         className="circle d-flex-r"
                         target='_blank'
                     >
                         <img id='homeIcons' src={linkedin} alt="linkedin" />
                     </Link>
                     <Link
-                        to="https://mail.google.com/mail/u/0/#search/rnjstntmj%40gmail.com"
+                        // to="https://mail.google.com/mail/u/0/#search/rnjstntmj%40gmail.com"
                         className="circle d-flex-r"
                         target='_blank'
                     >
@@ -44,7 +44,7 @@ export default function Home() {
 
                 <div className="buttons">
                     <div className="row d-flex-r color-2 oxanium-300">View my projects</div>
-                    <div className="row d-flex-r color-2 oxanium-300">Downlaod Resume</div>
+                    <div className="row d-flex-r color-2 oxanium-300">Download Resume</div>
                 </div>
             </div>
         </div>
