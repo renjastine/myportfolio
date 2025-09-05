@@ -1,28 +1,41 @@
 {
   "files": {
-    "main.css": "/myportfolio/static/css/main.37ea3e25.css",
-    "main.js": "/myportfolio/static/js/main.9f6d19ee.js",
+    "main.css": "/myportfolio/static/css/main.0fddab64.css",
+    "main.js": "/myportfolio/static/js/main.31a1c6a5.js",
     "static/js/453.670e15c7.chunk.js": "/myportfolio/static/js/453.670e15c7.chunk.js",
+    "static/media/python.svg": "/myportfolio/static/media/python.4b610840f9e5a3319ff7bba3313b73b1.svg",
     "static/media/git.svg": "/myportfolio/static/media/git.f9b589fcea869bf97a6d7c091068c646.svg",
     "static/media/figma.svg": "/myportfolio/static/media/figma.fcfc5000ee56e7028aa806cfc6ef1ef9.svg",
+    "static/media/php.svg": "/myportfolio/static/media/php.9f9533506d2069667febe41181dc0aa9.svg",
     "static/media/photoshop.svg": "/myportfolio/static/media/photoshop.26e8e3ecc57c7152a104a13ff19f5b7e.svg",
     "static/media/jQuery.svg": "/myportfolio/static/media/jQuery.149e9f5b2e7d336159a118dbe970eabf.svg",
+    "static/media/PostgresSQL.svg": "/myportfolio/static/media/PostgresSQL.7bc394e86ea1f692d59a3d484ad156af.svg",
+    "static/media/Flask.svg": "/myportfolio/static/media/Flask.c084b9349458e09e6559ca851f06e2b2.svg",
+    "static/media/mysql.svg": "/myportfolio/static/media/mysql.ef20285c04c8267478e2e14a5383cd11.svg",
+    "static/media/Postman.svg": "/myportfolio/static/media/Postman.4f13d94619e491aa4cfa8ca9492ed110.svg",
     "static/media/vscode.svg": "/myportfolio/static/media/vscode.ae90970b7990088d824d8e3a11d9024f.svg",
+    "static/media/reactjs.svg": "/myportfolio/static/media/reactjs.219ca97974719b40e2122651e75f491f.svg",
+    "static/media/intellij.svg": "/myportfolio/static/media/intellij.af243ab5c3d878601b684223225204db.svg",
+    "static/media/nodejs.svg": "/myportfolio/static/media/nodejs.4f903f4d4f3a1b8fbc7ba6bac9150265.svg",
+    "static/media/Java.svg": "/myportfolio/static/media/Java.a751bad6c81431ab4dd6fa6632a65540.svg",
+    "static/media/springboot.svg": "/myportfolio/static/media/springboot.6603da529f30738e0fb52fb972c7dfc8.svg",
     "static/media/Github-black.svg": "/myportfolio/static/media/Github-black.808fa37fbb4ba165168fdf45006ef030.svg",
     "static/media/github.svg": "/myportfolio/static/media/github.ef3fc3cb26076b168d8ea996d9d53404.svg",
     "static/media/JavaScript.svg": "/myportfolio/static/media/JavaScript.4c1b5332c1b1057928f6f06cf972c91c.svg",
+    "static/media/illustrator.svg": "/myportfolio/static/media/illustrator.c5b1db3bc175b45b216ba97a6a2fdef9.svg",
     "index.html": "/myportfolio/index.html",
+    "static/media/csharp.svg": "/myportfolio/static/media/csharp.4b8080ff785d7bd4f1b95178568e9ba1.svg",
     "static/media/linkedin.svg": "/myportfolio/static/media/linkedin.d0659e816fbabc2809150e2f5ba72dfb.svg",
     "static/media/phone.svg": "/myportfolio/static/media/phone.9d960926251509404b9b0b2e18a179ca.svg",
     "static/media/gmail.svg": "/myportfolio/static/media/gmail.5e1a0b184bd8689c69f1408efd7d3bea.svg",
     "static/media/css.svg": "/myportfolio/static/media/css.c4a915671736f0aec50d88e8869e3829.svg",
     "static/media/html.svg": "/myportfolio/static/media/html.911621cb704b15ea9d0967be55ca6011.svg",
-    "main.37ea3e25.css.map": "/myportfolio/static/css/main.37ea3e25.css.map",
-    "main.9f6d19ee.js.map": "/myportfolio/static/js/main.9f6d19ee.js.map",
+    "main.0fddab64.css.map": "/myportfolio/static/css/main.0fddab64.css.map",
+    "main.31a1c6a5.js.map": "/myportfolio/static/js/main.31a1c6a5.js.map",
     "453.670e15c7.chunk.js.map": "/myportfolio/static/js/453.670e15c7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.37ea3e25.css",
-    "static/js/main.9f6d19ee.js"
+    "static/css/main.0fddab64.css",
+    "static/js/main.31a1c6a5.js"
   ]
 }
