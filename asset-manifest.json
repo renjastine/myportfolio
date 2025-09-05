@@ -1,8 +1,11 @@
 {
   "files": {
-    "main.css": "/myportfolio/static/css/main.0789ccd8.css",
-    "main.js": "/myportfolio/static/js/main.31a1c6a5.js",
+    "main.css": "/myportfolio/static/css/main.bbf5f871.css",
+    "main.js": "/myportfolio/static/js/main.f813736f.js",
     "static/js/453.670e15c7.chunk.js": "/myportfolio/static/js/453.670e15c7.chunk.js",
+    "static/media/seamac.jpg": "/myportfolio/static/media/seamac.0f2877a5126ed0ce283b.jpg",
+    "static/media/capstone.jpg": "/myportfolio/static/media/capstone.776e72b5e773549557b1.jpg",
+    "static/media/ticketing_system.jpg": "/myportfolio/static/media/ticketing_system.f6890c33183732edad58.jpg",
     "static/media/python.svg": "/myportfolio/static/media/python.4b610840f9e5a3319ff7bba3313b73b1.svg",
     "static/media/git.svg": "/myportfolio/static/media/git.f9b589fcea869bf97a6d7c091068c646.svg",
     "static/media/figma.svg": "/myportfolio/static/media/figma.fcfc5000ee56e7028aa806cfc6ef1ef9.svg",
@@ -30,12 +33,12 @@
     "static/media/gmail.svg": "/myportfolio/static/media/gmail.5e1a0b184bd8689c69f1408efd7d3bea.svg",
     "static/media/css.svg": "/myportfolio/static/media/css.c4a915671736f0aec50d88e8869e3829.svg",
     "static/media/html.svg": "/myportfolio/static/media/html.911621cb704b15ea9d0967be55ca6011.svg",
-    "main.0789ccd8.css.map": "/myportfolio/static/css/main.0789ccd8.css.map",
-    "main.31a1c6a5.js.map": "/myportfolio/static/js/main.31a1c6a5.js.map",
+    "main.bbf5f871.css.map": "/myportfolio/static/css/main.bbf5f871.css.map",
+    "main.f813736f.js.map": "/myportfolio/static/js/main.f813736f.js.map",
     "453.670e15c7.chunk.js.map": "/myportfolio/static/js/453.670e15c7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0789ccd8.css",
-    "static/js/main.31a1c6a5.js"
+    "static/css/main.bbf5f871.css",
+    "static/js/main.f813736f.js"
   ]
 }
