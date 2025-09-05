@@ -40,7 +40,7 @@ nav {
     position: sticky;
     top: 0;
     background-color: #343034ce;
-    z-index: 1;
+    z-index: 2;
     box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.10);
 }
 
@@ -61,12 +61,25 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
+    row-gap: 1rem;
+    position: relative;
+}
+
+.creative {
+    position: absolute;
+    width: 600px;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
 }
 
 .home-box-1 {
     padding-block: 7rem;
     width: 90%;
     align-items: center;
+    max-width: 620px;
+    position: relative;
+    z-index: 1;
 }
 
 .home-box-1> :nth-child(2) {
@@ -447,5 +460,33 @@ header > h1:hover {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
+    }
+}
+
+@media screen and (min-width : 1024px) {
+    .home {
+        align-items: start;
+        padding-inline-start: 5rem;
+    }
+    .home-box-1 {
+        align-items: start;
+    }
+
+    .home-box-1>:nth-child(4){
+        text-align: start;
+    }
+
+    .home-contacts { 
+        justify-content: start;
+    }
+
+    .home-box-1 > .buttons {
+        justify-content: start;
+        column-gap: 4rem;
+    }
+
+    .home-box-1 > .buttons > .row {
+        width: 30%;
+        height: 40px;
     }
 }
