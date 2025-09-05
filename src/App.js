@@ -8,12 +8,13 @@ import "./css/animations.css"
 import "./css/style.css"
 import "./css/font.css"
 
-import { BrowserRouter as Router, Routes, Route, BrowserRouter } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
+import "./css/responsive.css"
 
 
 function App() {
   return (
-    <div className="App">
+    <div className="App d-flex-c">
       <BrowserRouter>
         <Nav />
         <Home />

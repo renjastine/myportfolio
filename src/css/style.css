@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color: #343034;
+    background-color: #211e21;
 }
 
 h1,h3,h4,body,ul, p {
@@ -31,6 +31,7 @@ h1,h3,h4,body,ul, p {
 
 .App {
     position: relative;
+    background-color: #343034;
 }
 
 /* ############### NAV ##################### */
@@ -44,6 +45,15 @@ nav {
     box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.10);
 }
 
+nav > :first-child, nav > :last-child {
+    user-select: none;
+    transition: text-shadow 0.3s;
+}
+
+nav > :first-child:hover, nav > :last-child:hover {
+    text-shadow: 0 0 1.7rem #78ccf9;
+}
+
 .n-ul {
     list-style-type: none;
     display: none;
@@ -52,7 +62,9 @@ nav {
 .n-ul>li {
     translate: transformX(-50rem);
     width: 0;
+    user-select: none;
 }
+
 
 /* ############# HOME ####################### */
 
@@ -63,6 +75,9 @@ nav {
     align-items: center;
     row-gap: 1rem;
     position: relative;
+    width: 100%;
+    max-width: 1264px;
+    align-self: center;
 }
 
 .creative {
@@ -430,63 +445,3 @@ header > h1:hover {
     max-width: 445.35px;
 }
 
-@media screen and (min-width : 425px) {
-    .n-ul {
-        display: flex;
-        opacity: 0%;
-        justify-content: center;
-    }
-}
-
-@media screen and (min-width : 768px) {
-    .n-ul {
-        list-style-type: none;
-        display: flex;
-        opacity: 1;
-        width: 55%;
-        max-width: 450px;
-        font-size: 1.1rem;
-        transition: opacity 0.3s;
-    }
-
-    .n-ul>li {
-        width: 5.5rem;
-        text-align: center;
-        transition: width 0.3s;
-        margin-inline: 0.4rem;
-    }
-
-    .home-box-1>.buttons {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
-}
-
-@media screen and (min-width : 1024px) {
-    .home {
-        align-items: start;
-        padding-inline-start: 5rem;
-    }
-    .home-box-1 {
-        align-items: start;
-    }
-
-    .home-box-1>:nth-child(4){
-        text-align: start;
-    }
-
-    .home-contacts { 
-        justify-content: start;
-    }
-
-    .home-box-1 > .buttons {
-        justify-content: start;
-        column-gap: 4rem;
-    }
-
-    .home-box-1 > .buttons > .row {
-        width: 30%;
-        height: 40px;
-    }
-}
