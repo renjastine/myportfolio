@@ -13,6 +13,7 @@ export default function Home() {
             <div className="home-box-1 d-flex-c">
                 <p className='color-2 oxanium-300'>I'm Ren Jastine Timajo, an aspiring</p>
                 <h1 className='color-2 oxanium-heading'>Full-Stack Developer</h1>
+                <p className='color-2 oxanium-200'>“Hover over Full-Stack Developer”</p>
                 <p className='color-2 oxanium-300'>I build responsive and user-friendly websites that bring ideas to life from front-end to back-end.</p>
 
                 <div className="home-contacts d-flex-r">
@@ -37,9 +38,6 @@ export default function Home() {
                     >
                         <img id='homeIcons' src={gmail} alt="gmail" />
                     </Link>
-                    <div className="circle d-flex-r phone">
-                        <img id='homeIcons' src={phone} alt="phone" />
-                    </div>
                 </div>
 
                 <div className="buttons">
