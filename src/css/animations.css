@@ -1,62 +1,77 @@
 @keyframes blinking_light {
     0% {
         text-shadow: 0 0 0 #f0f0f0;
+        color: #000000;
+    }
+
+    5% {
+        text-shadow: -0.1rem 0.1rem 0.8rem #f0f0f0;
+        color: #f4f4f4;
     }
 
     10% {
-        text-shadow: -0.1rem 0.1rem 0.8rem #f0f0f0;
+        color: #000000;
+        text-shadow: 0 0 0 #f0f0f0;
     }
 
     15% {
-        text-shadow: 0 0 0 #f0f0f0;
+        color: #f4f4f4;
+        text-shadow: -0.1rem 0.1rem 0.8rem #f0f0f0;
     }
 
     20% {
-        text-shadow: -0.1rem 0.1rem 0.8rem #f0f0f0;
+        color: #000000;
+        text-shadow: 0 0 0 #f0f0f0;
     }
 
     25% {
-        text-shadow: 0 0 0 #f0f0f0;
+        color: #f4f4f4;
+        text-shadow: -0.1rem 0.1rem 0.8rem #f0f0f0;
     }
 
     30% {
-        text-shadow: -0.1rem 0.1rem 0.8rem #f0f0f0;
+        color: #000000;
+        text-shadow: 0 0 0 #f0f0f0;
     }
 
     35% {
-        text-shadow: 0 0 0 #f0f0f0;
+        color: #f4f4f4;
+        text-shadow: -0.1rem 0.1rem 0.8rem #f0f0f0;
     }
 
     40% {
-        text-shadow: -0.1rem 0.1rem 0.8rem #f0f0f0;
+        color: #000000;
+        text-shadow: 0 0 0 #f0f0f0;
     }
 
     45% {
-        text-shadow: 0 0 0 #f0f0f0;
+        color: #f4f4f4;
+        text-shadow: -0.1rem 0.1rem 0.8rem #f0f0f0;
     }
 
     50% {
-        text-shadow: -0.1rem 0.1rem 0.8rem #f0f0f0;
-    }
-
-    55% {
+        color: #000000;
         text-shadow: 0 0 0 #f0f0f0;
     }
 
-    60% {
+    55% {
+        color: #f4f4f4;
         text-shadow: -0.1rem 0.1rem 0.8rem #f0f0f0;
     }
 
-    65% {
+    /* 60% {
+        color: #000000;
         text-shadow: 0 0 0 #f0f0f0;
     }
 
     90% {
+        color: #000000;
         text-shadow: 0 0 0 #f0f0f0;
-    }
+    } */
 
 
     100% {
+        color: #f4f4f4;
         text-shadow: -0.1rem 0.1rem 0.8rem #f0f0f0;
     }
 }
