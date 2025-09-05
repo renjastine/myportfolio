@@ -29,29 +29,29 @@ export default function Tech({ techName }) {
             <img
                 className='tech-logo'
                 src={
-                    techName == "HTML" ? html :
-                        techName == "CSS" ? css : 
-                        techName == "JavaScript" ? javascript : 
-                        techName == "Figma" ? figma : 
-                        techName == "Git" ? git : 
-                        techName == "Photoshop" ? photoshop : 
-                        techName == "VS Code" ? vscode : 
-                        techName == "Github" ? github : 
-                        techName == "ReactJS" ? reactjs : 
-                        techName == "NodeJS" ? nodejs : 
-                        techName == "PHP" ? php : 
-                        techName == "MySQL" ? mysql : 
-                        techName == "Spring Boot" ? springboot : 
-                        techName == "Flask" ? flask : 
-                        techName == "PostgreSQL" ? postgre : 
-                        techName == "Python" ? python : 
-                        techName == "Java" ? java : 
-                        techName == "C#" ? csharp : 
-                        techName == "Illustrator" ? illustrator : 
-                        techName == "IntelliJ" ? intellij : 
-                        techName == "Postman" ? postman : 
+                    techName === "HTML" ? html :
+                        techName === "CSS" ? css : 
+                        techName === "JavaScript" ? javascript : 
+                        techName === "Figma" ? figma : 
+                        techName === "Git" ? git : 
+                        techName === "Photoshop" ? photoshop : 
+                        techName === "VS Code" ? vscode : 
+                        techName === "Github" ? github : 
+                        techName === "ReactJS" ? reactjs : 
+                        techName === "NodeJS" ? nodejs : 
+                        techName === "PHP" ? php : 
+                        techName === "MySQL" ? mysql : 
+                        techName === "Spring Boot" ? springboot : 
+                        techName === "Flask" ? flask : 
+                        techName === "PostgreSQL" ? postgre : 
+                        techName === "Python" ? python : 
+                        techName === "Java" ? java : 
+                        techName === "C#" ? csharp : 
+                        techName === "Illustrator" ? illustrator : 
+                        techName === "IntelliJ" ? intellij : 
+                        techName === "Postman" ? postman : 
 
-                        techName == "jQuery" ? jQuery : ""
+                        techName === "jQuery" ? jQuery : ""
                 }
                 alt={techName}
             />
