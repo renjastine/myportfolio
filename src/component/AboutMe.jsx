@@ -49,7 +49,7 @@ export default function AboutMe() {
                         <p className='poppins-light color-2'>Worked on the user interface of the institute’s website, focusing on layout design, responsiveness, and user-friendly navigation to improve overall user experience.</p>
 
                         <p className='poppins-light color-2 tech-used'>Tech I Used: </p>
-                        
+
                         <div className="tech-stack d-flex-r">
                             <Tech techName={"HTML"} />
                             <Tech techName={"CSS"} />

@@ -306,6 +306,73 @@ header > h1:hover {
     height: 31px;
 }
 
+/* ########### My Projects ################# */
+.projects {
+    align-items: center;
+}
+
+.project-box {
+    width: 85%;
+    max-width: 1200px;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    column-gap: 1rem;
+    justify-content: space-around;
+}
+
+.project-row {
+    max-width: 370px;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.30);
+    border-radius: 1rem;
+    background-color: #5a535a85;
+}
+
+.project-image {
+    background-color: #5a535a85;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.project-image > img {
+    width: 120%;
+}
+
+.project-info {
+    background-color: #5a535a85;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0.7rem;
+    flex-wrap: wrap;
+    /* gap: 0.5rem; */
+    border-radius: 0 0 1rem 1rem;
+    min-height: 196.4px;
+}
+
+.project-info > .tech-stack {
+    margin-block: 0.5rem;
+}
+
+.project-button {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 45px;
+    justify-content: end;
+    padding-block: 0.5rem 0;
+}
+
+.project-button > .button {
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    background-color: #232323;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.20);
+}
+
 @media screen and (min-width : 425px) {
     .n-ul {
         display: flex;

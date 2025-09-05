@@ -1,3 +1,4 @@
+import Projects from "./component/Projects";
 import AboutMe from "./component/AboutMe";
 import Skill from "./component/Skill";
 import Home from "./component/Home";
@@ -18,6 +19,7 @@ function App() {
         <Home />
         <AboutMe />
         <Skill />
+        <Projects />
       </BrowserRouter>
     </div>
   );
