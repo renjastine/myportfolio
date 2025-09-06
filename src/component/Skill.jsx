@@ -5,7 +5,7 @@ import Tech from './tech'
 
 export default function Skill() {
     return (
-        <div className='skills d-flex-c'>
+        <div className='skills d-flex-c' id='skills'>
             <Header title={"My Skills"} tagline={"How I bring ideas to life"} />
             <div className="skills-box d-flex-r">
                 <div className="row">

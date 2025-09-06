@@ -50,21 +50,25 @@ nav > :first-child, nav > :last-child {
     transition: text-shadow 0.3s;
 }
 
-nav > :first-child:hover, nav > :last-child:hover {
+nav > :first-child:hover {
     text-shadow: 0 0 1.7rem #78ccf9;
 }
 
 .n-ul {
     list-style-type: none;
-    display: none;
+    width: 55%;
+    min-width: 396.48px;
+    justify-content: space-around;
 }
 
 .n-ul>li {
-    translate: transformX(-50rem);
-    width: 0;
     user-select: none;
+    cursor: pointer;
 }
 
+.n-ul>li:hover {
+    text-shadow: 0 0 1.7rem #f4f4f4;
+}
 
 /* ############# HOME ####################### */
 
@@ -445,3 +449,18 @@ header > h1:hover {
     max-width: 445.35px;
 }
 
+.burger {
+    width: 33px;
+    /* margin-right: 0.5rem; */
+    justify-content: space-around;
+    transition: transform 0.3s;
+}
+
+.burger > img {
+    transition: transform 0.3s;
+    pointer-events: none;
+}
+
+.burger:hover {
+    filter: drop-shadow(0 0 0.2rem #f4f4f4);
+}

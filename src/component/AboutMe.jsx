@@ -5,7 +5,7 @@ import Tech from './tech'
 
 export default function AboutMe() {
     return (
-        <div className='aboutme d-flex-c'>
+        <div className='aboutme d-flex-c' id='about'>
             <Header title="About Me" tagline="This is who I am" />
             <div className="about-box d-flex-r">
                 <div className="about-box-1">

@@ -7,7 +7,7 @@ import Tech from './tech'
 
 export default function Projects() {
     return (
-        <div className='projects d-flex-c'>
+        <div className='projects d-flex-c' id='project'>
             <Header title={"My Projects"} tagline={"Turning ideas into reality"} />
             <div className="project-box d-flex-r">
                 <div className="project-row d-flex-c">

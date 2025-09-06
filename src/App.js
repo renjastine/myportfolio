@@ -14,7 +14,7 @@ import "./css/responsive.css"
 
 function App() {
   return (
-    <div className="App d-flex-c">
+    <div className="App d-flex-c" id='home'>
       <BrowserRouter>
         <Nav />
         <Home />

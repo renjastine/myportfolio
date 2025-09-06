@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 export default function Contact() {
     return (
-        <div className='contact d-flex-r'>
+        <div className='contact d-flex-r' id='contact'>
             <div className="contacts-info d-flex-c">
                 <h3 className='color-2 oxanium-heading'>Contact Information</h3>
                 <div className="contact-row d-flex-r">
