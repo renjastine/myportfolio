@@ -3,10 +3,10 @@ import React from 'react'
 
 export default function Links() {
     return (
-        <ul className='n-ul d-flex-r'>
+        <ul className='n-ul'>
             <li className='poppins-light color-2'>
                 <HashLink smooth
-                    className='color-2'
+                    className='link color-2'
                     to="#home"
                     style={{
                         textDecoration: "none",
@@ -17,7 +17,7 @@ export default function Links() {
             </li>
             <li className='poppins-light color-2'>
                 <HashLink smooth
-                    className='color-2'
+                    className='link color-2'
                     to="#about"
                     style={{
                         textDecoration: "none"
@@ -28,7 +28,7 @@ export default function Links() {
             </li>
             <li className='poppins-light color-2'>
                 <HashLink smooth
-                    className='color-2'
+                    className='link color-2'
                     to="#skills"
                     style={{
                         textDecoration: "none"
@@ -39,7 +39,7 @@ export default function Links() {
             </li>
             <li className='poppins-light color-2'>
                 <HashLink smooth
-                    className='color-2'
+                    className='link color-2'
                     to="#project"
                     style={{
                         textDecoration: "none"
@@ -50,7 +50,7 @@ export default function Links() {
             </li>
             <li className='poppins-light color-2'>
                 <HashLink smooth
-                    className='color-2'
+                    className='link color-2'
                     to="#contact"
                     style={{
                         textDecoration: "none"
