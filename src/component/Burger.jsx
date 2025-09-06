@@ -33,11 +33,14 @@ export default function Burger() {
         }
     }
 
-    document.addEventListener("click", (e) => {
+    const handleEvent = (e) => {
         if(e.target.id !== "close" && form === "close"){
             setForm('burger')
         }
-    })
+    }
+
+    document.addEventListener("click", (e) => handleEvent(e))
+    document.addEventListener("scroll", (e) => handleEvent(e))
 
     
 
