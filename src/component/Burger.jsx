@@ -1,9 +1,8 @@
 import React, { useState } from 'react'
 import line from '../icons/single_line.svg'
 
-export default function Burger() {
+export default function Burger({ form, setForm }) {
 
-    const [form, setForm] = useState("burger")
     const [style, setStyle] = useState({
         burger: {
             upperLine: {
@@ -34,7 +33,7 @@ export default function Burger() {
     }
 
     const handleEvent = (e) => {
-        if(e.target.id !== "close" && form === "close"){
+        if (e.target.id !== "close" && form === "close") {
             setForm('burger')
         }
     }
@@ -42,7 +41,7 @@ export default function Burger() {
     document.addEventListener("click", (e) => handleEvent(e))
     document.addEventListener("scroll", (e) => handleEvent(e))
 
-    
+
 
     const { burger, close } = style
 
@@ -52,11 +51,11 @@ export default function Burger() {
             onClick={e => changeForm(e)}
         >
             <img src={line}
-                style={form==="burger"?burger:close.upperLine}
+                style={form === "burger" ? burger : close.upperLine}
                 alt="line"
             />
             <img src={line}
-                style={form==="burger"?burger:close.bottomLine}
+                style={form === "burger" ? burger : close.bottomLine}
                 alt="line"
             />
         </div>

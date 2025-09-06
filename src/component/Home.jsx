@@ -7,10 +7,7 @@ import creative from "../images/creative.svg"
 
 
 
-export default function Home() {
-    const [width, setWidth] = useState(window.innerWidth);
-    window.addEventListener("resize", () => setWidth(window.innerWidth))
-
+export default function Home({width}) {
     return (
         <div className='home d-flex-r'>
             <div className="home-box-1 d-flex-c">
