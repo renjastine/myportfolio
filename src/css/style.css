@@ -165,6 +165,7 @@ nav > :first-child:hover {
     justify-content: space-between;
     max-width: 620px;
     align-items: center;
+    column-gap: 1rem;
 }
 
 .buttons>.row {
