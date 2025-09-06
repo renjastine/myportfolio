@@ -3,8 +3,6 @@ import Links from './Links'
 import Burger from './Burger'
 
 export default function Nav({ width, form, setForm }) {
-  console.log(width)
-
   return (
     <nav className='d-flex-r'>
       <h3 className='poppins-medium color-1'>Portfolio</h3>

@@ -4,10 +4,11 @@ import github from "../icons/github.svg"
 import linkedin from "../icons/linkedin.svg"
 import gmail from "../icons/gmail.svg"
 import creative from "../images/creative.svg"
+import { HashLink } from 'react-router-hash-link'
+import resume from '../files/Ren Jastine Timajo.pdf'
 
 
-
-export default function Home({width}) {
+export default function Home({ width }) {
     return (
         <div className='home d-flex-r'>
             <div className="home-box-1 d-flex-c">
@@ -20,7 +21,7 @@ export default function Home({width}) {
                     <Link
                         to="https://github.com/renjastine"
                         className="circle d-flex-r"
-                    // target='_blank'
+                        target='_blank'
                     >
                         <img id='homeIcons' src={github} alt="github" />
                     </Link>
@@ -41,8 +42,26 @@ export default function Home({width}) {
                 </div>
 
                 <div className="buttons">
-                    <div className="row d-flex-r color-2 oxanium-300">View my projects</div>
-                    <div className="row d-flex-r color-2 oxanium-300">Download Resume</div>
+                    <HashLink smooth
+                        to={"#project"}
+                        className="row d-flex-r color-2 oxanium-300"
+                        style={{
+                            textDecoration: "none"
+                        }}
+                    >
+                        View my projects
+
+                    </HashLink>
+                    <a className="row d-flex-r color-2 oxanium-300"
+                        href={resume}
+                        download
+                        style={{
+                            textDecoration: "none"
+                        }}
+                    >
+                        Download Resume
+
+                    </a>
                 </div>
             </div>
             {

@@ -35,7 +35,14 @@ export default function Projects() {
                             <Tech techName={"MySQL"} />
                         </div>
                         <div className="project-button d-flex-r">
-                            <div className="button color-2 oxanium-200 d-flex-r">View</div>
+                            <a className="button color-2 oxanium-200 d-flex-r"
+                                href='https://seamactraining.com'
+                                style={{
+                                    textDecoration: "none"
+                                }}
+                            >
+                                View
+                            </a>
                         </div>
                     </div>
                 </div>
