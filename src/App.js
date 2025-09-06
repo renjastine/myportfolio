@@ -5,9 +5,13 @@ import AboutMe from "./component/AboutMe";
 import Skill from "./component/Skill";
 import Home from "./component/Home";
 import Nav from "./component/Nav";
+
+import ViewModal from "./modal/ViewModal";
+
 import "./css/animations.css"
 import "./css/style.css"
 import "./css/font.css"
+
 
 import { BrowserRouter } from "react-router-dom";
 import "./css/responsive.css"
@@ -33,6 +37,7 @@ function App() {
         <Skill />
         <Projects />
         <Contact />
+        {/* <ViewModal /> */}
       </BrowserRouter>
     </div>
   );
