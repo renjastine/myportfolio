@@ -1,11 +1,23 @@
-import React from 'react'
-import Header from './Header'
-import seamac from '../images/seamac.jpg'
-import capstone from '../images/capstone.jpg'
 import ticketing from '../images/ticketing_system.jpg'
+import capstone from '../images/capstone.jpg'
+import ViewModal from '../modal/ViewModal'
+import seamac from '../images/seamac.jpg'
+import Header from './Header'
+import React, { useState } from 'react'
 import Tech from './tech'
 
+
 export default function Projects() {
+    const [modal, setModal] = useState("flex")
+    const [buttonClicked, setButtonClicked] = useState("")
+
+    const viewModal = (e) => {
+        setModal("flex")
+        setButtonClicked(e.target.id)
+    }
+
+    document.body.style.overflow = modal === "flex" ? "hidden" : ""
+
     return (
         <div className='projects d-flex-c' id='project'>
             <Header title={"My Projects"} tagline={"Turning ideas into reality"} />
@@ -35,14 +47,15 @@ export default function Projects() {
                             <Tech techName={"MySQL"} />
                         </div>
                         <div className="project-button d-flex-r">
-                            <a className="button color-2 oxanium-200 d-flex-r"
-                                href='https://seamactraining.com'
+                            <div className="button color-2 oxanium-200 d-flex-r"
+                                id='seamac'
+                                onClick={e => viewModal(e)}
                                 style={{
                                     textDecoration: "none"
                                 }}
                             >
                                 View
-                            </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -69,7 +82,12 @@ export default function Projects() {
                             <Tech techName={"PHP"} />
                         </div>
                         <div className="project-button d-flex-r">
-                            <div className="button color-2 oxanium-200 d-flex-r">View</div>
+                            <div className="button color-2 oxanium-200 d-flex-r"
+                                id='capstone'
+                                onClick={e => viewModal(e)}
+                            >
+                                View
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -95,11 +113,17 @@ export default function Projects() {
                             <Tech techName={"MySQL"} />
                         </div>
                         <div className="project-button d-flex-r">
-                            <div className="button color-2 oxanium-200 d-flex-r">View</div>
+                            <div className="button color-2 oxanium-200 d-flex-r"
+                                id='ticketing'
+                                onClick={e => viewModal(e)}
+                            >
+                                View
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <ViewModal modal={modal} setModal={setModal} button={buttonClicked}/>
         </div>
     )
 }

@@ -14,7 +14,7 @@ body {
     background-color: #211e21;
 }
 
-h1,h3,h4,body,ul, p {
+h1, h2, h3,h4,body,ul, p {
     margin: 0;
     padding: 0;
 }
@@ -400,6 +400,8 @@ header > h1:hover {
 .project-button > .button {
     justify-content: center;
     align-items: center;
+    user-select: none;
+    cursor: pointer;
     width: 30%;
     background-color: #232323;
     border-radius: 0.5rem;
@@ -504,14 +506,90 @@ header > h1:hover {
     height: 100%;
 }
 
-.viewModal {
-    top: 50%;
-    left: 50%;
-    
-    z-index: 1;
-    width: 90vw;
+.view-modal {
+    top: 0;
+    left: 0;
+    z-index: 3;
+    width: 100vw;
     height: 100vh;
     position: fixed;
-    background-color: #fff;
+    background-color: #000000a0;
+    align-items: center;
+    padding-block: 3rem;
+}
 
+.modal-box {
+    background-color: #1f1f1f;
+    width: 95%;
+    height: 630px;
+    max-width: 1241px;
+    position: relative;
+    transition: transform 0.3s, opacity 0.3s;
+    border: 1px solid white;
+    padding: 1rem;
+}
+
+.modal-box > .close {
+    position: absolute;
+    top: 0.3em;
+    right: 0.3rem;
+    width: 35px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.modal-box > .close > :first-child {
+    width: 15px;
+}
+
+.modal-content {
+    margin-top: 1rem;
+    padding-block: 3rem;
+    max-height: 500px;
+    overflow-y: auto;
+    align-items: center;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.seamac-content {
+    align-items: center;
+}
+
+.seamac-content > a {
+    background-color: #343333;
+    border-radius: 0.5rem;
+    width: 175px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.10);
+    gap: 0.4rem;
+}
+
+.seamac-content > a:hover {
+    background-color: #797878;
+}
+
+.seamac-content > a > img {
+    width: 10px;
+}
+
+.capstone-content, .ticketing-content {
+    width: 100%;
+    align-items: center;
+    row-gap: 3rem;
+}
+
+.facial {
+    align-items: center;
+}
+
+.facial > video {
+    margin-top: 0.5rem;
+    width: 97%;
+    max-width: 913px;
 }

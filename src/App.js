@@ -28,7 +28,9 @@ function App() {
   })
 
   return (
-    <div className="App d-flex-c" id='home'>
+    <div className="App d-flex-c"
+      id='home'
+    >
       <BrowserRouter>
         <Nav width={width} form={form} setForm={setForm} />
         <PhoneNav form={form} />
@@ -37,7 +39,6 @@ function App() {
         <Skill />
         <Projects />
         <Contact />
-        {/* <ViewModal /> */}
       </BrowserRouter>
     </div>
   );
