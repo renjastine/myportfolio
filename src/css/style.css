@@ -90,6 +90,7 @@ nav > :first-child:hover {
     right: 0;
     bottom: 0;
     z-index: 0;
+    pointer-events: none;
 }
 
 .home-box-1 {
