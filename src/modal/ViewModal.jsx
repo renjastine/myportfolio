@@ -3,6 +3,7 @@ import close from '../icons/close.svg'
 import SeamacModal from '../component/SeamacModal'
 import CapstoneModal from '../component/CapstoneModal'
 import TicketingModal from '../component/TicketingModal'
+import Loading from '../component/Loading'
 
 
 
@@ -11,6 +12,15 @@ export default function ViewModal({ modal, setModal, button }) {
         transform: "translateY(5rem)",
         opacity: "30%"
     })
+    const [startLoading, setStartLoading] = useState(false)
+
+    const loading = () => {
+        setStartLoading(true)
+
+        setTimeout(() => {
+            setStartLoading(false)
+        }, 1500)
+    }
 
     useEffect(() => {
         if (modal === "flex") {
@@ -19,6 +29,8 @@ export default function ViewModal({ modal, setModal, button }) {
                     transform: "translateY(0)",
                     opacity: "1"
                 })
+
+                loading()
             }, 50)
         }
         else {
@@ -54,9 +66,12 @@ export default function ViewModal({ modal, setModal, button }) {
 
                 <div className="modal-content d-flex-c">
                     {
-                        button === "seamac" ? <SeamacModal /> :
-                            button === "capstone" ? <CapstoneModal /> :
-                                button === "ticketing" ? <TicketingModal /> : "Title"
+                        startLoading ? <Loading modal={modal} /> :
+                            (
+                                button === "seamac" ? <SeamacModal /> :
+                                    button === "capstone" ? <CapstoneModal /> :
+                                        button === "ticketing" ? <TicketingModal /> : "Title"
+                            )
                     }
                 </div>
             </div>

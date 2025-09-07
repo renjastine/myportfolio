@@ -8,7 +8,7 @@ import Tech from './tech'
 
 
 export default function Projects() {
-    const [modal, setModal] = useState("flex")
+    const [modal, setModal] = useState("none")
     const [buttonClicked, setButtonClicked] = useState("")
 
     const viewModal = (e) => {

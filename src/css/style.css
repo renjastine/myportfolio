@@ -527,6 +527,7 @@ header > h1:hover {
     transition: transform 0.3s, opacity 0.3s;
     border: 1px solid white;
     padding: 1rem;
+    border-radius: 1.3rem;
 }
 
 .modal-box > .close {
@@ -547,11 +548,11 @@ header > h1:hover {
 .modal-content {
     margin-top: 1rem;
     padding-block: 3rem;
+    min-height: 80%;
     max-height: 500px;
     overflow-y: auto;
     align-items: center;
     border-top: 1px solid white;
-    border-bottom: 1px solid white;
 }
 
 .seamac-content {
@@ -592,4 +593,26 @@ header > h1:hover {
     margin-top: 0.5rem;
     width: 97%;
     max-width: 675px;
+}
+
+.loading {
+    width: 50%;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    row-gap: 0.5rem;
+    margin-block: 8rem;
+}
+
+.loading-box {
+    border: 1px solid #f4f4f4;
+    height: 15px;
+    width: 100%;
+    max-width: 133px;
+}
+
+.loading-bar {
+    background-color: #fff;
+    height: 100%;
+    transition: width 1.5s;
 }
